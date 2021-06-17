@@ -31,7 +31,7 @@ import './App.css';
              }}/>
              <FaAngleLeft className="backward_arraw" onClick={()=>{
                  const bacw=index-1;
-                 if(bacw==-1)
+                 if(bacw===-1)
                  setindex(3);
                  else
                  setindex(bacw);
